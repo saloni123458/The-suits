@@ -1,0 +1,14 @@
+/* ========================================== Terms and condiions ==================================== */
+.terms{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+.terms-left{
+  flex-basis: 65%; ;
+}
+.term{
+  font-size: 25px;
+  font-family: 'Scheherazade New', serif;
+  color: #222;
+}

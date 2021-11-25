@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE SUITS</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="school.css">
+    <link rel="stylesheet" href="footercss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>THE SUITS</title>
+</head>
+<body>
+
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt="lawyers"></a>
+            <h1>THE SUITS</h1>
+            <div class="nav-links">
+                <i class="fa fa-times"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="books.html">BOOKS</a></li>
+                    <li><a href="blog.html">NEWSLETTER</a></li>
+                    <li><a href="LAWYERS.html">LAWYERS</a></li>
+                    <!-- <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn" >LAWYERS</a>
+                        <div class="dropdown-content">
+                          <a href="LAWYERS.html">Corporate & Business Lawyers</a>
+                          <a href="#">Criminal Lawyers</a>
+                          <a href="#">Family Lawyers</a>
+                        </div> -->
+                    <li><a href="contact-us.html">CONTACT US</a></li>
+                    <li><a href="Login_signup.html">LOGOUT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>BOOK AN APPOINTMENT</h1>
+            <p>“God works wonders now and then: Behold! A lawyer and an honest man!”</p>
+            <!-- <a href="app.html" class="hero-btn">BOOK AN APPOINTMENT</a> -->
+        </div>
+    </section>
+
+ 
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css"/>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"> 
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="school.css">
+
+</head>
+<body>
+    
+
+    
+<!-- reservation section starts -->
+
+
+<section class="reservation" id="reservation" >
+
+    
+    
+    <div class="banner"> <br>
+
+        
+        <!-- <h1 class="heading"><CENTER> <span><b>Book An Appointment </b></span> </CENTER> </h1> -->
+        <img src="img/about-page.jpg" alt="table">
+
+        <article> <br>
+            <aside style="font-size: x-large;"> <b>Fill the details</b> </aside>
+            <form action="bookappt.php" method="post">
+
+                <div class="form-row">
+                    <input type="text" placeholder="Enter Your Name" name="clname" required>
+                    
+                </div>
+
+                <div class = "form-row">
+                    <!-- name="Select Day" -->
+
+                    <select  id="day" name="Lawyer" required>
+                        <option value="Select Day" name="Lawyer">Lawyer's Name</option>
+                        <option value="Lynn Toler" name="Lawyer">Lynn Toler</option>
+                        <option value="Jeanine Zahara" name="Lawyer">Jeanine Zahara</option>
+                        <option value="Thomas M. Ard" name="Lawyer">Thomas M. Ard</option>
+                        <option value="Elle woods" name="Lawyer">Elle woods</option>
+                        <option value="Gary Gibson" name="Lawyer">Gary Gibson</option>
+                        <option value="Kirsten Lancee" name="Lawyer">Kirsten Lancee</option>
+                        <option value="Tonii K. Roulston" name="Lawyer">Tonii K. Roulston</option>
+                        <option value="Ashok Desai" name="Lawyer">Ashok Desai</option>
+                        <option value="Mukul Rohatgi" name="Lawyer">Mukul Rohatgi</option>
+                        <option value="Abhishek Manu Singhvi" name="Lawyer">Abhishek Manu Singhvi</option>
+                        <option value="kate scott" name="Lawyer">kate scott </option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    
+                    <input type="text" placeholder="Enter Your Phone Number" name="phone" required>
+                </div>
+
+
+
+                <div class = "form-row">
+
+                    <select id="day" name="day" required>
+                        <option value="Select Day" name="day">Select Day  </option>
+                        <!-- <option value="Sunday" name="day">Sunday</option> -->
+                        <option value="Monday" name="day">Monday</option>
+                        <option value="Tuesday" name="day">Tuesday</option>
+                        <option value="Wednesday" name="day">Wednesday</option>
+                        <option value="Thursday" name="day">Thursday</option>
+                        <option value="Friday" name="day">Friday</option>
+                        <!-- <option value="Saturday" name="day">Saturday</option> -->
+                    </select>
+
+                    <input type="date" id="start" name="date" value="2021-10-01" min="2021-01-01" max="2025-12-31" required>
+                
+                    
+                </div>
+              
+                    <div class="form-row">
+                        <select id="hour" name="time" required>
+                            <option value="Select Hour" name="time">Select Time</option>
+                            <option value="10: 00" name="time">10: 00</option>
+                            <option value="12: 00" name="time">11: 00</option>
+                            <option value="14: 00" name="time">12: 00</option>
+                            <option value="16: 00" name="time">03: 00</option>
+                            <option value="18: 00" name="time">04: 00</option>
+                            <option value="20: 00" name="time">05: 00</option>
+                           
+                        </select>                      
+                
+
+             
+                    <!-- <input type="date" id="start" name="trip-start" value="2021-10-01" min="2021-01-01" max="2025-12-31"> -->
+                 
+                    <input type="submit" name = "bookbtn" value="SAVE YOUR APPOINTMENT" >
+                    <!-- <input type="submit" name = "paybtn" value="PAY FOR " > -->
+
+                    <!-- <a href="https://rzp.io/l/j6lDjgkw" class="btn" name = "bookbtn" >  <b>  BOOK APPOINTMENT </b> </a> -->
+                </div>
+            </form>
+    
+        </article>
+    </div>
+
+</section>
+
+
+<footer class="footer-area">
+    <div class="footer-wave-box">
+        <div class="footer-wave footer-animation"></div>
+    </div>
+    <div class="main">
+        <div class="footer">
+            <div class="single-footer">
+                <h4>about us</h4>
+                <p>Lorem ipsum dolor sit amet, di dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Excepteur sint qui officia deserunt Excepteur.</p>
+                <div class="footer-social">
+                    <a href="" class="social-icon"><i class="fa fa-facebook-f"></i></a>
+                    <a href="" class="social-icon"><i class="fa fa-twitter"></i></a>
+                    <a href="" class="social-icon"><i class="fa fa-instagram"></i></a>
+                    <a href="" class="social-icon"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="single-footer">
+                <h4>main menu</h4>
+                <ul>
+                    <li><a href="index.html" ><i class="fa fa-chevron-right"></i> HOME</a></li>
+                    <li><a href="books.html"><i class="fa fa-chevron-right"></i> BOOKS</a></li>
+                    <li><a href="blog.html"><i class="fa fa-chevron-right"></i> NEWSLETTER</a></li>
+                    <li><a href="LAWYERS.html"><i class="fa fa-chevron-right"></i> LAWYERS</a></li>
+                    <li><a href="contact-us.html"><i class="fa fa-chevron-right"></i> CONTACT US</a></li>
+                </ul>
+            </div>
+            <div class="single-footer">
+                <h4>quick links</h4>
+                <ul>
+                    <li><a href="privacy.html"><i class="fa fa-chevron-right"></i> privacy policy</a></li>
+                    <li><a href="terms.html"><i class="fa fa-chevron-right"></i> terms & conditions</a></li>
+                    <li><a href="disclaimer.html"><i class="fa fa-chevron-right"></i> disclaimer</a></li>
+                </ul>
+            </div>
+            <div class="single-footer">
+                <h4>contact us</h4>
+                <ul>
+                    <li><a href="" ><i class="fa fa-home"></i>XYZ Road, ABC Building</a></li>
+                    <li><a href="" ><i class="fa fa-phone"></i> +88 1235 458 985</a></li>
+                    <li><a href="" ><i class="fa fa-envelope-o"></i> info@demo.com</a></li>
+                    <li><a href="" ><i class="fa fa-globe"></i> www.thesuits.com</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy">
+            <p>&copy; 2020 all rights reserved</p>
+        </div>
+    </div>
+</footer>
+
+
+
+<style>
+
+body .reservation{
+  background-color: #eaecf2;
+  height:100vh;
+}
+
+.reservation .banner img{
+  height: 500px;
+  width: 570px;
+  margin: 60px 0px 60px 30px;
+}
+.reservation .banner article{
+  background-color: white;
+  text-align: center;
+  color: black;
+  width: 700px;
+  height: 500px;
+  float: right;
+  margin: 60px 30px 60px 0px;
+}
+.reservation .form-row{
+  display:flex;
+  width: 90%;
+  margin: 5 auto;
+}   
+.reservation form select,form input{
+  display: block;
+  width: 100%;
+  margin: 15px 12px;
+  padding:5px;
+  font-size:15px;
+  font-family: 'Poppins', sans-serif;
+  outline:none;
+  border:none;
+  border-bottom: 1px solid #eee;
+  font-weight:300;
+}
+.reservation form input[type = text], form input[type=number],form input::placeholder,select{
+  color: #9a9a9a;
+}
+.reservation form input[type = submit]{
+  color: #fff;
+  background: #070D59 ;
+  padding: 12px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.reservation form input[type = submit]:hover{
+  opacity:0.9;
+}
+
+
+</style>
+
+
+
+
+
+
+
+
+
+</body>
+<!-- reservation section ends -->
